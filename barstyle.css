@@ -3,16 +3,16 @@
   display: flex;
   flex-direction: row;
   position: relative;
-
-  height: 300px;
-  border: 3px solid black;
+  top: 50vh;
+  height: 100px;
+  
 }
 /* style each bar */
 .bar_measurement {
   
   display: inline-block;
   bottom: 0;
-  border: 1px solid black;
+  border: 1px solid #97c2b3;
   border-radius: 6px 6px 0 0;
   background: #389933;
   width: 10%;
