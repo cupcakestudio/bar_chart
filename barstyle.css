@@ -1,0 +1,23 @@
+/* style the whole container for the bar chart */
+#bar_chart_animation {  
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  height: 300px;
+  border: 3px solid black;
+}
+/* style each bar */
+.bar_measurement {
+  
+  display: inline-block;
+  bottom: 0;
+  border: 1px solid black;
+  border-radius: 6px 6px 0 0;
+  background: #389933;
+  width: 10%;
+  text-align: center;
+  align-self: flex-end;
+  color: white;
+  
+}
